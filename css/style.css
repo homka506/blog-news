@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700,900');
+body{
+	font: 300 17px/1.5 'Raleway', sans-serif;
+	background: #b07cf7;
+	color: #fff;
+
+}
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-section {
+	padding: 100px 0;
+
+}
+.ba-section-title {
+ text-align: center;
+ font-weight:700;
+font-size: 90px;
+margin:0;
+}
+.ba-section-content {
+	text-align: center;
+	max-width:563px ;
+    margin: 0 auto 70px;
+}
+p {
+	margin:0 0 20px;
+}
+.ba-row {
+	display:flex;
+	margin-left:-30px;
+}
+.ba-col {
+	padding-left:30px;
+	width:33.33%;
+}
+.ba-post a{
+color:#fff;
+text-decoration: none;
+display:block;
+position: relative;
+}
+.ba-post-date-top span {
+	font-size:30px;
+	font-weight: 700;
+}
+.ba-post-date-top {
+	border-radius: 5px;
+background-color:  rgba(38, 38, 38, 0.5);
+width: 60px;
+height: 60px;
+display:inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size:21px;
+line-height:1;
+font-weight: 900;
+
+position: absolute;
+top:30px;
+left:30px;
+}
+.ba-post-title, .ba-post-meta{
+	z-index:2 ;
+position: absolute;
+bottom:30px;
+left:30px;
+right:30px;
+}
+.ba-post-title {
+	margin:0;
+	bottom:60px;
+}
+.ba-post a:after {
+content:"";
+display: block;
+width:100%;
+height:100px;
+background: linear-gradient(to top, #000, transparent);
+position: absolute;
+height:50%;
+bottom:0;
+z-index:1
+}
+.ba-post a img {
+	display:block;
+     width:100%;
+}
